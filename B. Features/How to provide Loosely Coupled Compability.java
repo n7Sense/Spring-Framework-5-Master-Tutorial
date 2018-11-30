@@ -1,4 +1,4 @@
-How to provide Loosely Coupled Compability. 
+	How to provide Loosely Coupled Compability. 
 ============================================
 
  in my Business layer if i used JDBC lke  
