@@ -45,9 +45,9 @@ Spring IoC container
 								
 								IOC 												MVC
 								 |													 |
-								 |													 |	
+								 |													 |
 					-----------------------------									Web		
-					|							|						(WebApplicationContext(I) )	
+					|							|						( WebApplicationContext(I) )	
 				  Core 						   J2EE
 			( BeanFactory(I) )				( ApplicationContext(I) )
 					  	
