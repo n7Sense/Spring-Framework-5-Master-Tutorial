@@ -91,5 +91,5 @@
 
 	E. Note:
 
-			Notice that both all Bean instances have same hashcode and the constructor and setter is called once, it means that spring
+			Notice that all Bean instances have same hashcode and the constructor and setter is called once, it means that spring
 			container is returning the same instance of Bean always.
