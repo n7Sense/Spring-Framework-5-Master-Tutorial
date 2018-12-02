@@ -1,2 +1,0 @@
-	Singletomne Bean Scope
-===========================
