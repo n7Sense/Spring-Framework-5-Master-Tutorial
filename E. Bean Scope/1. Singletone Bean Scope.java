@@ -1,4 +1,4 @@
-	Singletomne Bean Scope
+	Singletone Bean Scope
 ===========================
 	(Default) Scopes a single bean definition to a single object instance for each Spring IoC container.
 	
