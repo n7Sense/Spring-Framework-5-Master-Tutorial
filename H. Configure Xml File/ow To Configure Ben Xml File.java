@@ -47,15 +47,60 @@ How To Configure Ben Xml File.?
 
 		Engine setEngine(Engine[] engine){}
 
-		<beans>	
+	<beans>	
 		<bean id="c" class="beans.Engine">
 			<property name="modelType">
-				<lit>
+				<list>
 					<ref>2001</ref>
 					<ref>2010</ref>
 					<ref>2015</ref>
 					<ref>2019</ref>
-				</lit>
+				</list>
 			</property>
 		</bean>
 	</beans>
+
+7. Collection 
+	
+	1. for List with Homogenious Element use <list> tag
+
+		<beans>	
+			<bean id="c" class="beans.Engine">
+				<property name="modelType">
+					<list>
+						<value>2001</value>
+						<value>2010</value>
+						<value>2015</value>
+						<value>2019</value>
+					</list>
+				</property>
+			</bean>
+		</beans>
+
+	2. for Set with Homogenious Element use <set> tag
+		<beans>	
+			<bean id="c" class="beans.Engine">
+				<property name="modelType">
+					<set>
+						<value>2001</value>
+						<value>2010</value>
+						<value>2015</value>
+						<value>2019</value>
+					</set>
+				</property>
+			</bean>
+		</beans>
+
+	3. for Map
+
+		<beans>	
+			<bean id="c" class="beans.Engine">
+				<property name="modelType">
+					<map>
+						<entry key="1" value="Maruti"/>
+						<entry key="2" value="Honda"/>
+						<entry key="3" value="Lamborghini"/>
+					</map>
+				</property>
+			</bean>
+		</beans>
