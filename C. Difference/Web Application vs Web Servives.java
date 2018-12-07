@@ -91,3 +91,56 @@ Interoperability
  				ATM is an Helper object of an Bank.
 
 
+	WebServices specifications
+==================================
+
+	To develop web application with any Programming languages, the specifications are provided by "WS-I"
+	that specifications are provided in the form of "Basic Profile Documents" in the give version.
+	B.P 1.0
+	B.P 1.1
+	B.P 1.2
+	B.P 2.0
+
+	By using this Basic Profile Documents specifications all the Programming languages all the technologies are designed there
+	own API
+
+	the Java Technology given the some API that follows the WS-I specifications.
+		1. JaxRPC API
+		2. JaxWS API
+		3. JaxRS API 
+		this all API is given by Sun Microsystem.
+
+	IMP: The WS-I is give total 2-types of WebServices
+		1. SOAP WebServices
+		2. RESTFull WebServices
+
+	The JaxRPC and JaxWS are used to design SOAP based WebServices
+	The JaxRs are used to design RESTFull WebServices
+
+Functions of All API
+======================
+
+	JAXP : Java API For XML Processing
+			to work with parser softwere like DOM Parser, SAX parser, Stack Parser.
+
+	JAXB : Java Architeture for XML binding
+			use to convert XML formate data into Java Object and java Object into XML Formate
+
+	NOTE: this 2 API are possible to use it Non-Web Servicess Environment also.
+
+	SAAJ : SOAP Atachement API for java.
+	JAXM : Java API for XML Messaging.
+
+	NOTE: this 2 apis are used to build the XML based Messaging, but only possible with the WebServices Envirnonment only.
+
+	JAXRPC : Java API for Remote Procedure Call.
+	JAXWS : Java API for XML WebServices.
+
+		NOTE : both API are used to develop SOAP based WebServices, the JaxRPC 2.0 is renamed as JaxWS API
+
+
+	JaxRS : Java Api for XML RestFull WebServices.
+			
+
+
+
