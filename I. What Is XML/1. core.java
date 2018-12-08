@@ -12,6 +12,8 @@ What is XML..?
  	1. Must begin with Prolog, i.e <?xml version="1.0" encoding="UTF-8"?>
  	2. Must mentain Unique ROOT element.
  	3. Must mentain closing tag for all opening tag.
- 	4. case sensitive
+ 	4. Tags Are Case Sensitive
  	5. all Attributes values must enclose with either songle Quote '' or double Quote " ".
+ 	6. Elements Must Be Nested Properly
+ 	7. Attributes must contain a value
  	

@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!DOCTYPE employee [
-    <!NOTATION vrml PUBLIC "VRML 1.0">
-    <!ELEMENT employee (id| name, salary, phone, yog) >
+    <!ELEMENT employee (id, name, salary, phone, yog) >
     <!ELEMENT phone (#PCDATA) > 
-    <!ENTITY dotto "Dottoro">
-    <!ENTITY keshav "MadhuSudan">
- 	
  ]>
 
 <employee>
@@ -14,5 +10,4 @@
 	<name>Rahul</name>
 	<salary>5000</salary>
 	<phone>97698 45623</phone>
-	<yog>&keshav;</yog>
 </employee>
