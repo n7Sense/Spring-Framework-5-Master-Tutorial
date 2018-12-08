@@ -1,5 +1,15 @@
-<?xml version="1.0"?>
-<Employee id="1" version="0.1" ec=">">
-	<name>Rahul &#34;</name>
-	<address>Thane &lt;49 </address>
-</Employee>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE sample [
+    <!NOTATION vrml PUBLIC "VRML 1.0">
+    <!ENTITY dotto "Dottoro">
+    <!ENTITY keshav "MadhuSudan">
+
+]>
+<entityTest>
+    <predefined>2 &lt; 5</predefined>
+    <declared>&dotto;</declared>
+    <yogeshwar>>&keshav;></yogeshwar>
+    <name id=">"> Rahul</name>
+    <valid as="'"> valid </valid>
+    <valid2 as=' " '>    		valid </valid2>
+</entityTest>
