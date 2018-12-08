@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!DOCTYPE employee [
+<!DOCTYPE employees [
     <!ELEMENT employee (id, name, salary, phone, yog) >
     <!ELEMENT phone (#PCDATA) > 
  ]>
-
-<employee>
-	<id>100</id>
-	<name>Rahul</name>
-	<salary>5000</salary>
-	<phone>97698 45623</phone>
-</employee>
+<employees>
+		<employee>
+			<id>100</id>
+			<name>Rahul</name>
+			<salary>5000</salary>
+			<phone>97698 45623</phone>
+		</employee>
+</employees>
