@@ -15,4 +15,5 @@ Cardinal Operator
 
  		author: for one book  1 to many author are available.
  		publication : not mandatory it will or will not.
- 		(book-name | title-name ): any one of them
+ 		(book-name | title-name ): any one of them.
+ 		
