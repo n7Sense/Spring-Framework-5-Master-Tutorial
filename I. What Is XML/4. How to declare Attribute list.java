@@ -71,7 +71,7 @@ Data Type For Attribute
 
 	6. 	ENTITIES : It represents a list of external entities in the document. It is a Tokenized Attribute Type.
 
-	7. 	NMTOKEN : It is similar to CDATA and the attribute value consists of a valid XML name. It is a Tokenized Attribute Type.
+	7. 	NMTOKEN : It is similar to CDATA and the attribute value consists of a valid XML name.
 
 	8. 	NMTOKENS : It is similar to CDATA and the attribute value consists a list of valid XML name.
 					It is a Tokenized Attribute Type.

@@ -1,4 +1,4 @@
-Types Of Elements In DTD
+Data Type For AttributeTypes Of Elements In DTD
 ===========================
 
 	1> Text only Elements
@@ -71,3 +71,4 @@ Types Of Elements In DTD
 	Sysntax: 	<!ELEMENT employee EMPTY>
 
 		Example: in html <br> and <hr> both tag are called as empty elements.
+		

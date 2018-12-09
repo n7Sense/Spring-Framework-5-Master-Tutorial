@@ -1,0 +1,29 @@
+The purpose of an XML Schema is to define the legal building blocks of an XML document:
+===========================================================================================
+
+the elements and attributes that can appear in a document
+the number of (and order of) child elements
+data types for elements and attributes
+default and fixed values for elements and attributes
+
+
+
+features of XSD
+=====================
+
+	XSDs can be extensible for future additions.
+	XSD is richer and more powerful than DTD.
+	XSD is written in XML.
+	XSD supports data types.
+	XSD supports namespaces.
+	XSD is W3C recommendation.
+	XSD can create our own Data TYpes.
+	XSD support customized Cardinal operator like for * 10 - to - 15 
+	XSD support to work with namesapce(package) (fully qualified name to avoid Ambiguit)
+
+	DTD
+===========
+	
+	DTD	not create own data types.
+	DTD only 3- cardinal operator are there and we cant customized 
+	DTD not support to work with namesapce(package)
