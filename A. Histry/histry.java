@@ -8,7 +8,7 @@ Organisation : Spring Organisation , after that taken by PIVOTAL Organisation (i
 Initial Name : Interface 21
 
 It is alternative for EJB, main alternative resource for EJB
-We can reduce investimate cost.
+We can reduce investemate cost.
 
 Q. Why they named to Spring .?
 	

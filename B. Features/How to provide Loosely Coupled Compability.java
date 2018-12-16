@@ -15,7 +15,7 @@
  	"Rulse Interface Model"
  }
 
- If my all DAO laye classes implements this Rules interface, then insted of passing the DAO layer class as a instance into BusinessLayer
+ If my all DAO layer classes implements this Rules interface, then insted of passing the DAO layer class as a instance into BusinessLayer
  we can pass Rules instance, at runtime if i have ability to pass my object like JDBC or JPA etc. then my Business Layer will become loosely 
  coupled with DAO layer, So by using Java Runtime Polymorphism we can able to inject any Runtime "Implementation Class Instances".
 
