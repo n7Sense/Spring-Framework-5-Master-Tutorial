@@ -1,0 +1,19 @@
+
+<beans>
+	<bean class="MethodInvokingBean">
+		<property name="StaticMethod" value="CarFactory.setCarName" />
+
+		<property name="arguments">
+			<list>
+				<value>model.Benz</value>
+			</list>
+		</property>
+	</bean>
+
+	<bean id="cf" class="CarFactory" factory-method="getCar" />
+
+</beans>
+
+# This Is Called Static Factory just like in 
+#Loggor 
+#LoggerFactory is an Static Factory.

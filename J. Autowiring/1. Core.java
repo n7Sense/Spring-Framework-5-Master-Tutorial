@@ -5,7 +5,7 @@
 	The limitation of this concept is, we can only inject Secondary type (i.e Non-Premtive data type).
 
 	Example:
-		in Enterprises Application like Banking app, there are have many fors like for Opening Account, Insurance ec.
+		In Enterprises Application like Banking app, there are have many forms like for Opening Account, Insurance ec.
 		for that all form there are have many layer to process into database i.e
 
 

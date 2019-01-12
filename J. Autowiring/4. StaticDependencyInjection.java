@@ -1,7 +1,7 @@
 	Static Dependency Injection
 ====================================
 
-	If we want to do Dependency Injection for static properties, then by normal <property> tag we acant do
+	If we want to do Dependency Injection for static properties, then by normal <property> tag we cant do
 	we must have to instantiate MethodinvokingFactorybean class.
 
 	Example:
@@ -43,5 +43,5 @@
 			   </bean>   
 		</beans>
 
-	hr@cloudcoreglobal.com
+	
 

@@ -1,0 +1,18 @@
+
+<beans>
+	<bean id="cf" class="CarFactory">
+		<prop erty name="carName">
+			<list>
+				<value>model.Benz</value>
+			</list>
+		</property>
+	</bean>
+
+	<bean id="cfInstance" factory-bean="" factory-method="getCar" />
+
+</beans>
+
+
+#This Is Called Instance Factory just like in 
+#Hibernate 
+#SessionFactory is an Instance Factory.
