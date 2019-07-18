@@ -1,7 +1,7 @@
 	How to provide Loosely Coupled Compability. 
 ============================================
 
- in my Business layer if i used JDBC lke  
+ in my Business layer if i used JDBC like  
  public class BusinessLayer{
  	JDBC jdbc = new JDBC();	
  }
