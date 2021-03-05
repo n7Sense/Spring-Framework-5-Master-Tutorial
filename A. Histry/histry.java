@@ -21,4 +21,6 @@ Q. Why they named to Spring .?
 
 Spring is a Season, thats why we can see the Spring Logo i.e LEAF so just they are comparing with Season. no Resion behind it.
 
+EJB is heavyweight because it has dependency with Application Server
+
 
