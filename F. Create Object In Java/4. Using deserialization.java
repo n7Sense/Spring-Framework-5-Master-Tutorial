@@ -1,7 +1,8 @@
 Using deserialization
 ======================
 
-4) Using deserialization : Whenever we serialize and then deserialize an object, JVM creates a separate object. In deserialization, JVM doesn’t use any constructor to create the object.
+4) Using deserialization : Whenever we serialize and then deserialize an object, JVM creates a separate object.
+  In deserialization, JVM doesn’t use any constructor to create the object.
 To deserialize an object we need to implement the Serializable interface in the class.
 
 Serializing an Object :
