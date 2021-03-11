@@ -9,7 +9,7 @@
 		for that all form there are have many layer to process into database i.e
 
 
-			Form(View Layer) 		Contriooler Layer 		Business Layer 		DAO Layer 		Database Layer
+			Form(View Layer) 		Controller Layer 		Business Layer 		DAO Layer 		Database Layer
 
 		the above given Structure of mvc there are have many business layer and they need same Connection Object to
 		communicate to the data base, so insted of creating separate Connection Object, we can create only one Connection Bean
